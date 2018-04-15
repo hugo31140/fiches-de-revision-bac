@@ -1,0 +1,156 @@
+@font-face{
+	font-family: juice;
+	src: url('Fonts/JUICE_Light.ttf');
+}
+
+ul{
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+
+}
+
+
+a{
+	display: block;
+	padding: 4em;
+}
+
+li{
+
+	padding: 0em;
+	margin: 5em;
+	display: inline-block;
+	
+	
+}
+
+section ul li:nth-child(1) {
+	background-color: #00FF00;
+}
+
+section ul li:nth-child(1):hover{
+	background-image: url("Pictures/math.jpg");
+	background-size: 100%;
+	padding: 1em;
+}
+
+
+section ul li:nth-child(2) {
+	background-color: #FF0000;
+}
+
+section ul li:nth-child(2):hover{
+	background-image: url("Pictures/physique.jpg");
+	background-size: 100%;
+	padding: 1em;
+}
+
+
+section ul li:nth-child(3) {
+	background-color: #2e2eb8;
+}
+
+section ul li:nth-child(3):hover{
+	background-image: url("Pictures/svt.jpg");
+	background-size: 160%;
+	padding: 1em;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section ul li a:nth-child():hover{
+	color: black;
+	font:bold;
+}
+
+section ul li:nth-child(4) {
+	background-color: #CC0;
+}
+
+section ul li:nth-child(4):hover{
+	background-image: url("Pictures/histoire.jpeg");
+	background-size: 100%;
+	padding: 1em;
+}
+
+
+section ul li:nth-child(5) {
+	background-color: #993399;
+}
+
+section ul li:nth-child(5):hover{
+	background-image: url("Pictures/philo.jpeg");
+	background-size: 100%;
+	padding: 1em;
+}
+
+
+section ul li:nth-child(6) {
+	background-color: #007a99;
+}
+
+section ul li:nth-child(6):hover{
+	background-image: url("Pictures/anglais.jpg");
+	background-size: 140%;
+	padding: 1em;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+section ul li:nth-child(7) {
+	background-color: #cc6600;
+}
+
+section ul li:nth-child(7):hover{
+	background-image: url("Pictures/espagnol.png");
+	background-size: 114%;
+	padding: 1em;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+section ul li:nth-child(8) {
+	background-color: #ff33ff;
+}
+
+section ul li:nth-child(8):hover{
+	background-image: url("Pictures/divers.jpg");
+	background-size: 100%;
+	padding: 1em;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+	
+}
+
+#header{
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	background-color: grey;
+	height: 5em;
+
+
+}
+
+nav ul li {
+	padding: 10px;
+	margin: auto;
+	font-family: juice;
+	background-color: grey;
+
+}
